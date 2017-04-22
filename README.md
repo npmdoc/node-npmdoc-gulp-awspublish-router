@@ -1,4 +1,7 @@
-# api documentation for  [gulp-awspublish-router (v0.1.3)](https://github.com/jussi-kalliokoski/gulp-awspublish-router)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-awspublish-router.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-awspublish-router) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-awspublish-router.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-awspublish-router)
+# npmdoc-gulp-awspublish-router
+
+#### api documentation for  [gulp-awspublish-router (v0.1.3)](https://github.com/jussi-kalliokoski/gulp-awspublish-router)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-awspublish-router.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-awspublish-router) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-awspublish-router.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-awspublish-router)
+
 #### Define your build sources in HTML.
 
 [![NPM](https://nodei.co/npm/gulp-awspublish-router.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-awspublish-router)
@@ -76,7 +79,8 @@
         "coveralls": "cat ./coverage/lcov.info | COVERALLS_SERVICE_NAME=\"travis-ci\" ./node_modules/.bin/coveralls",
         "test": "gulp test"
     },
-    "version": "0.1.3"
+    "version": "0.1.3",
+    "bin": {}
 }
 ```
 
